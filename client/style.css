@@ -1,0 +1,52 @@
+:root {
+  --light-Cyan: hsl(193, 38%, 86%);
+  --neon-Green: hsl(150, 100%, 66%);
+  --grayish-Blue: hsl(217, 19%, 38%);
+  --font: 28px;
+}
+body {
+  background-color: var(--grayish-Blue);
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+h4 {
+  color: var(--neon-Green);
+  font-size: 12px;
+}
+.container {
+  background-color: var(--grayish-Blue);
+  width: 90%;
+  padding: 15px;
+
+  border-radius: 12px;
+  box-shadow: 1px 3px 6px -1px;
+  position: fixed;
+}
+
+p {
+  font-size: var(--font);
+  color: var(--light-Cyan);
+  margin: 0;
+  padding-top: 17px;
+  padding-bottom: 70px;
+}
+
+button {
+  background-color: var(--neon-Green);
+  border: none;
+  border-radius: 100px;
+  padding: 15px;
+  position: absolute;
+  top: 90%;
+  cursor: pointer;
+}
+button:hover {
+  background-color: aqua;
+}
+/* 
+.line {
+  background: url(./asset/pattern-divider-mobile.svg);
+} */

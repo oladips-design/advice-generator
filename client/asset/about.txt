@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Noto Serif Khmer
+- Font Author: Copyright 2022 The Noto Project Authors (https://github.com/notofonts/khmer)
+- Font Source: http://fonts.gstatic.com/s/notoserifkhmer/v18/-F6UfidqLzI2JPCkXAO2hmogq0146FxtbwKEr951z5s6lI40sDRH_AVhUKdN6B8wXEZK9Xo4xg.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))
