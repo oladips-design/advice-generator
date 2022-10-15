@@ -1,7 +1,7 @@
 const express = require("express");
 const fetch = require("node-fetch");
 const app = express();
-const port = process.env.PORT || 4000;
+// const port = process.env.PORT || 4000;
 
 app.use(express.json());
 app.use((req, res, next) => {
@@ -26,10 +26,10 @@ app.get("/get", async (req, res) => {
   }
 });
 
-app.listen(port, (err) => {
+app.listen(4000, (err) => {
   if (err) {
     console.log("server failed");
     return;
   }
-  console.log(`server listening at http://localhost:${port}`);
+  console.log(`server listening at http://localhost:4000`);
 });
