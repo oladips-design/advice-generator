@@ -11,7 +11,6 @@ app.use((req, res, next) => {
 
 app.get("/get", async (req, res) => {
   let api = "https://api.adviceslip.com/advice";
-
   try {
     let advice = await fetch(api);
     let parsedAdvice = await advice.json();
@@ -24,6 +23,10 @@ app.get("/get", async (req, res) => {
       .status(500)
       .send({ message: error.message, err: "something went wrong" });
   }
+});
+app.get("/", (req, res) => {
+  console.log("Homepage ");
+  res.send("Welcome to this API");
 });
 
 app.listen(4000, (err) => {
