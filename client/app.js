@@ -12,6 +12,7 @@ btn.addEventListener("click", async (e) => {
 
 async function getAdvice() {
   let endpoint = "http://localhost:4000/get";
+  // let endpoint = "https://amaranth-clam-kit.cyclic.app/get";
   try {
     let fetchAdvice = await fetch(endpoint);
     let adviceObj = await fetchAdvice.json();
